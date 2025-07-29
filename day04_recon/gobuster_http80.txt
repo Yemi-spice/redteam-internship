@@ -1,0 +1,25 @@
+/.htpasswd           [33m (Status: 403)[0m [Size: 211]
+/.bash_history       [32m (Status: 200)[0m [Size: 302]
+/.hta                [33m (Status: 403)[0m [Size: 206]
+/.svn/entries        [33m (Status: 403)[0m [Size: 214]
+/.htaccess           [33m (Status: 403)[0m [Size: 211]
+/.svn                [33m (Status: 403)[0m [Size: 206]
+/assets              [36m (Status: 301)[0m [Size: 237][34m [--> http://192.168.56.102/assets/][0m
+/cgi-bin/            [32m (Status: 200)[0m [Size: 1070]
+/cgi-bin             [36m (Status: 301)[0m [Size: 238][34m [--> http://192.168.56.102/cgi-bin/][0m
+/crossdomain.xml     [32m (Status: 200)[0m [Size: 200]
+/crossdomain         [32m (Status: 200)[0m [Size: 200]
+/evil                [36m (Status: 301)[0m [Size: 235][34m [--> http://192.168.56.102/evil/][0m
+/favicon.ico         [32m (Status: 200)[0m [Size: 3638]
+/gallery2            [36m (Status: 301)[0m [Size: 239][34m [--> http://192.168.56.102/gallery2/][0m
+/icon                [36m (Status: 301)[0m [Size: 235][34m [--> http://192.168.56.102/icon/][0m
+/images              [36m (Status: 301)[0m [Size: 237][34m [--> http://192.168.56.102/images/][0m
+/index               [32m (Status: 200)[0m [Size: 1227]
+/index.html          [32m (Status: 200)[0m [Size: 28067]
+/javascript          [36m (Status: 301)[0m [Size: 241][34m [--> http://192.168.56.102/javascript/][0m
+/joomla              [36m (Status: 301)[0m [Size: 237][34m [--> http://192.168.56.102/joomla/][0m
+/phpBB2              [36m (Status: 301)[0m [Size: 237][34m [--> http://192.168.56.102/phpBB2/][0m
+/phpmyadmin          [36m (Status: 301)[0m [Size: 241][34m [--> http://192.168.56.102/phpmyadmin/][0m
+/server-status       [33m (Status: 403)[0m [Size: 215]
+/test                [36m (Status: 301)[0m [Size: 235][34m [--> http://192.168.56.102/test/][0m
+/wordpress           [36m (Status: 301)[0m [Size: 240][34m [--> http://192.168.56.102/wordpress/][0m
