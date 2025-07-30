@@ -14,6 +14,19 @@
 
 ## 📸 Screenshots
 (Saved in screenshots/)
+## Screenshots
+
+### DVWA Page
+![DVWA Page](screenshots/dvwa.png)
+
+### Burp Proxy Config
+![Burp Proxy](screenshots/browser_burp_proxy.png)
+
+### Burp Repeater
+![Burp Repeater](screenshots/burp_repeater.png)
+
+### POST Intercept
+![Burp POST](screenshots/burp_post.png)
 
 ## ⚠️ Issues Faced
 - No POST request captured initially due to page load issue
